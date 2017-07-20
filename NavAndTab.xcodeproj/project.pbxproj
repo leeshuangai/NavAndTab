@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C15104571F204B6600D5085D /* UINav+UITab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINav+UITab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15104571F204B6600D5085D /* NavAndTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavAndTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C151045B1F204B6600D5085D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C151045D1F204B6600D5085D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C151045E1F204B6600D5085D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		C151044E1F204B6600D5085D = {
 			isa = PBXGroup;
 			children = (
-				C15104591F204B6600D5085D /* UINav+UITab */,
+				C15104591F204B6600D5085D /* NavAndTab */,
 				C15104581F204B6600D5085D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		C15104581F204B6600D5085D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C15104571F204B6600D5085D /* UINav+UITab.app */,
+				C15104571F204B6600D5085D /* NavAndTab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C15104591F204B6600D5085D /* UINav+UITab */ = {
+		C15104591F204B6600D5085D /* NavAndTab */ = {
 			isa = PBXGroup;
 			children = (
 				C1F21C691F20B6C8008BDEC2 /* Category */,
@@ -88,7 +88,7 @@
 				C151046B1F204B6600D5085D /* Info.plist */,
 				C151045A1F204B6600D5085D /* Supporting Files */,
 			);
-			path = "UINav+UITab";
+			path = NavAndTab;
 			sourceTree = "<group>";
 		};
 		C151045A1F204B6600D5085D /* Supporting Files */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C15104561F204B6600D5085D /* UINav+UITab */ = {
+		C15104561F204B6600D5085D /* NavAndTab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C151046E1F204B6600D5085D /* Build configuration list for PBXNativeTarget "UINav+UITab" */;
+			buildConfigurationList = C151046E1F204B6600D5085D /* Build configuration list for PBXNativeTarget "NavAndTab" */;
 			buildPhases = (
 				C15104531F204B6600D5085D /* Sources */,
 				C15104541F204B6600D5085D /* Frameworks */,
@@ -160,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "UINav+UITab";
-			productName = "UINav+UITab";
-			productReference = C15104571F204B6600D5085D /* UINav+UITab.app */;
+			name = NavAndTab;
+			productName = "NavAndTab";
+			productReference = C15104571F204B6600D5085D /* NavAndTab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C15104521F204B6600D5085D /* Build configuration list for PBXProject "UINav+UITab" */;
+			buildConfigurationList = C15104521F204B6600D5085D /* Build configuration list for PBXProject "NavAndTab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C15104561F204B6600D5085D /* UINav+UITab */,
+				C15104561F204B6600D5085D /* NavAndTab */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QSKYXS8264;
-				INFOPLIST_FILE = "UINav+UITab/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NavAndTab/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Topjet.UINav-UITab";
@@ -352,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QSKYXS8264;
-				INFOPLIST_FILE = "UINav+UITab/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NavAndTab/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Topjet.UINav-UITab";
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C15104521F204B6600D5085D /* Build configuration list for PBXProject "UINav+UITab" */ = {
+		C15104521F204B6600D5085D /* Build configuration list for PBXProject "NavAndTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C151046C1F204B6600D5085D /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C151046E1F204B6600D5085D /* Build configuration list for PBXNativeTarget "UINav+UITab" */ = {
+		C151046E1F204B6600D5085D /* Build configuration list for PBXNativeTarget "NavAndTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C151046F1F204B6600D5085D /* Debug */,
