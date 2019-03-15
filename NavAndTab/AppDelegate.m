@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+     //delevop 分支第一次改动
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window swichRootController];
     [self.window makeKeyAndVisible];
