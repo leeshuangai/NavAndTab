@@ -19,7 +19,11 @@
     
      //delevop 分支第一次改动
     //delevop 分支第2次改动
+
       //delevop 分支第3次改动
+
+       //fixbug
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window swichRootController];
     [self.window makeKeyAndVisible];
